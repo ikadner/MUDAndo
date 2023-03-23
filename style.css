@@ -61,7 +61,7 @@ html, body{
     align-items: center;
     font-size: medium;
     margin: auto;
-    margin-top: 160px;
+    margin-top: 120px;
     height: 30px;
     width: 180px;
    }
@@ -88,36 +88,30 @@ html, body{
 
 .container_ou{
     color: white;
-    display: flex;
+    display: block;
     margin: auto;
     width: 100%;
     text-align: center;
     align-items: center;
-}
-
-.container_ou::after{
-    width: 80px;
-    height: 5px;
-    color: #fff;
+    margin-top: 20px;
 }
 
 .cadastro{
-    background: #E2E2E2;
-    padding: 5px 80px;
+    background: #FCFCFC;
+    padding: 10px 65px; 
     color: rgb(0, 0, 0);
-    width: 50px;
     text-align: center;
     border: 1px solid #555;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     user-select: none;
-    position: absolute;
     display: flex;
     font-family:'Anek Latin' ;
     justify-content: center;
     align-items: center;
-    top: 90%;
-    left: 50%;
-   transform: translate(-50%, -50%);
+    margin: auto;
+    margin-top: 15px;
+    height: 30px;
+    width: 180px;
 }
 
