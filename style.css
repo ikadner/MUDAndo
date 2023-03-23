@@ -10,7 +10,7 @@
 
 html, body{
     width: 100%;
-    max-width: 100vw;
+    max-width: 100%;
     height: 100%;
     align-items: center;
     display: flex;
@@ -40,6 +40,67 @@ html, body{
     font-family: 'Lexend Mega';
     
 }
+
+.cadastro:hover{
+    background: #fff;
+    transition: background 1s;
+}
+
+.google{
+    background: #FCFCFC;
+    padding: 10px 65px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: 1px solid #555;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    font-family:'Anek Latin' ;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    margin: auto;
+    margin-top: 160px;
+    height: 30px;
+    width: 180px;
+   }
+
+.facebook{
+    background: #FCFCFC;
+    padding: 10px 65px; 
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: 1px solid #555;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    font-family:'Anek Latin' ;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    height: 30px;
+    width: 180px;
+
+}
+
+.container_ou{
+    color: white;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.container_ou::after{
+    width: 80px;
+    height: 5px;
+    color: #fff;
+}
+
 .cadastro{
     background: #E2E2E2;
     padding: 5px 80px;
@@ -58,52 +119,5 @@ html, body{
     top: 90%;
     left: 50%;
    transform: translate(-50%, -50%);
-
 }
-.cadastro:hover{
-    background: #fff;
-    transition: background 1s;
-}
-.facebook{
-    background: #FCFCFC;
-    padding: 10px 100px;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    border: 1px solid #555;
-    border-radius: 40px;
-    cursor: pointer;
-    user-select: none;
-    position: absolute;
-    display: flex;
-    font-family:'Anek Latin' ;
-    justify-content: center;
-    align-items: center;
-    height: 30px;
-    width: 5vw;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-}
-.google{
-    background: #FCFCFC;
-    padding: 10px 100px;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    border: 1px solid #555;
-    border-radius: 40px;
-    cursor: pointer;
-    user-select: none;
-    position: absolute;
-    display: flex;
-    font-family:'Anek Latin' ;
-    justify-content: center;
-    align-items: center;
-    font-size: medium;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 30px;
-    width: 5vw;
-   }
 
