@@ -3,7 +3,7 @@
 body{
 	background-color: #F2F5F7;
 	font-family: 'Lexend Mega',Arial,sans-serif;
-	background-image: url(./img/samambaias.jpg);
+	background-image: url(/img/samambaia.jpg);
 }
 
 .cabecalhoPrincipal {
@@ -27,6 +27,7 @@ body{
 }
 
 .cabecalhoPrincipal_titulo{
+	margin-left: auto; margin-right: auto;
     font-weight: bold;
 	font-size: 5em;
 	margin-bottom: 20px;
@@ -39,12 +40,14 @@ body{
 }
 
 .Sobrenos{
+	margin-left: auto; margin-right: auto;
 	display: flex;
 	flex-direction: column;
-	margin-top: 30%;
+	margin-top: 20%;
 }
 
 .Sobrenos_titulo{
+	padding-bottom: 50px;
 	color: white;
 	font-size: 3.5em;
 	font-family: 'Lexend Mega';
@@ -66,4 +69,19 @@ body{
 .Sobrenos_degrade{
 	height: 100px;
 	background-image: linear-gradient(to top, white, rgb(150, 145, 145));
+}
+
+.rodapePrincipal {
+    margin-left: 0px;
+    margin-right: 0px;
+	text-align: center;
+}
+
+.container img {
+	margin-top: 100px;
+	margin-right: 20px;
+	display: inline-block;
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
 }
