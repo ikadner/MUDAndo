@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+header{
+    background-image: url(./img/planta\ background.jpg);
+    height: 100px;
+    font-family: 'Aclonica';
+    font-size: 20px;
+    font-weight: bold;
+}
+.Conteudo_principal{
+    font-family: 'Anek Latin';
+}
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.Conteudo_princial_titulo{
+    font-size: 8px;
+    font-weight: bold;
+}
+
+.Conteudo_principal_entrar{
+    justify-content: center;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+
+input{
+    padding: 0 20px;
+    border: 0;
+    border-bottom: 1px solid #656565;
+}
+
+.Conteudo_principal_seta{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #45B54C;
+    margin-left: 240px;
+}
+
+.Conteudo_principal_loginFB{
+    background: #1877F2;
+    padding: 10px 0px; 
+    color: rgb(0, 0, 0);
+    border: 1px solid #555;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 90px;
+    height: 30px;
+    width: 120px;
+}
+
+.Conteudo_principal_loginGG{
+    background: #E2E2E2;
+    padding: 10px 0px;
+    color: rgb(0, 0, 0);
+    border: 1px solid #555;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    margin: auto;
+    margin-top: 10px;
+    height: 30px;
+    width: 120px;
+   }
+
+.Conteudo_principal_cadastro{
+    background: #E2E2E2;
+    padding: 10px 65px; 
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: 1px solid #555;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    font-family:'Anek Latin' ;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+    height: 30px;
+    width: 120px;   
+}
+
+
