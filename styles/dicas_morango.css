@@ -2,7 +2,7 @@
 
 /*imagem de fundo do topo*/
 .topo {
-    background-image: url(../img/topo_background_imagem.jpg);
+    background-image: url(../img/news_img/morango_news.jpg);
     background-size: cover;
     position: static;
 }
