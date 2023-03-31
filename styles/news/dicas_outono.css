@@ -2,7 +2,7 @@
 
 /*imagem de fundo do topo*/
 .topo {
-    background-image: url(/img/news_img/dicas_outono.jpg);
+    background-image: url(/img/news_img/dicas_outono.webp);
     background-size: cover;
     position: static;
 }
