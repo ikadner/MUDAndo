@@ -4,10 +4,10 @@
   "dir": "ltr",
   "display": "standalone",
   "name": "Plantasia",
-  "orientation": "any",
-  "scope": "/",
+  "orientation": "fullscreen",
+  "scope": "https://docs.pwabuilder.com",
   "short_name": "Plantasia",
-  "start_url": "/",
+  "start_url": "pages/inicio.html",
   "theme_color": "#ffffff",
   "categories": [],
   "screenshots": [],
@@ -460,6 +460,12 @@
     {
       "src": "img/ios/1024.png",
       "sizes": "1024x1024"
+    },
+    {
+      "src": "img/maskable_icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
